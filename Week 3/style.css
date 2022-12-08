@@ -1,25 +1,51 @@
 #header{
-
-    border: 1px solid black;
+    font-size: medium;
+    border: 1px darkgray;
+}
     
-    font-size: 14px;
+    
+    #about{
+
+    color: black;
+    font-size: 18px;
     
     }
-    
-    *{
 
+    #education{
+
+        color: black;
+        font-size: 18px;
+        
+        }
+    
+        #contacts{
+
+            color: black;
+            font-size: 22px;
+            
+            }
+
+            #hobbies{
+
+                color: black;
+                font-size: 18px;
+                
+                }
+    *{
     color: rgb(0, 255, 47);
     
     font-size: 18px;
     
     }
+    
     ul{
 
         border: 1px solid rgb(100, 99, 99);
-        
+        color: blue;
         font-size: 12px;
         
         }
+
         .container{
 
             margin: 0 auto;
