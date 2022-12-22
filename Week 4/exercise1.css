@@ -1,0 +1,26 @@
+    h3{
+    color: azure;
+    background-color: burlywood;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 80px;
+    text-align: right;
+}
+
+h3:hover{
+    font-size: 90px;
+}
+
+p{
+    color: gold;
+    background-color: gray;
+    font-weight: bold;
+    font-style: oblique;
+    text-align: center;  
+}
+
+#description{
+    color: aqua;
+    background-color: rgb(90, 88, 88);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

@@ -1,0 +1,42 @@
+body{
+    background-color: darkgreen;
+    color: white;
+    padding: 0%;
+    margin: 0%;
+}
+
+h1{
+    font-size: 82px;
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 38.5%;
+    margin: 100px 100px 100px 100px;
+}
+
+h2{
+    width: fit-content;
+    margin: 100px;
+    margin-top: -100px;
+}
+
+.Business{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+input{
+    margin-left: 100px;
+    margin-top: 60px;
+    width: fit-content;
+    font-size: 20px;
+    background-color: orange;
+    color: black;
+    border: none;
+    border-radius: 50px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.image{
+    text-align: right;
+    margin-top: -700px;
+}

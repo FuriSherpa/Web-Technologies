@@ -1,0 +1,61 @@
+      #about{
+
+    color: black;
+    font-size: 18px;
+    
+    }
+
+    about.hover{
+        font-size: 25px;
+    }
+
+    #education{
+
+        color: black;
+        font-size: 18px;
+        
+        }
+    
+        #contacts{
+
+            color: black;
+            font-size: 22px;
+            
+            }
+
+            #hobbies{
+
+                color: black;
+                font-size: 18px;
+                
+                }
+    
+                *{
+                    color: rgb(0, 255, 47);
+                    
+                    font-size: 18px;
+                    
+                    }
+    
+    ul{
+
+        border: 1px solid rgb(100, 99, 99);
+        color: blue;
+        font-size: 12px;
+        
+        }
+
+        .container{
+
+            margin: 0 auto;
+            
+            width: 1200px;
+            
+            }
+            Input[type=“text”] {
+
+                font-size: 16px;
+                
+                line-height: 1.2;
+                
+                }   
