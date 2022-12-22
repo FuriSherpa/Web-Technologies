@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(79, 143, 200);
+}
+
+h1{
+    color: darkmagenta;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+img{
+    border-radius: 10%;
+    width:auto;
+    height: 600px;
+    background-size: cover;
+    margin-left: 175px;
+}
