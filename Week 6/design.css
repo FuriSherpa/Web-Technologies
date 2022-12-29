@@ -1,0 +1,40 @@
+header{
+    padding: 5%;
+    font-size: 35px;
+    color: yellow;
+    border: 2px solid black;
+    text-align: center;
+    background-color: red;
+    height: 150px;
+}
+
+section{
+    display: flex;
+    padding: 0;
+}
+
+#one{
+    padding: 10%;
+    background-color: aqua;
+    font-size: 30px;
+    flex: 3;
+    height: 200px;
+}
+
+#two{
+    padding: 10%;
+    background-color: blueviolet;
+    font-size: 20px;
+    flex: 1;
+    font-size: 20px;
+    height: 200px;
+}
+
+footer{
+    padding: 5%;
+    background-color: yellow;
+    color: green;
+    font-size: 35px;
+    text-align: center;
+    height: 100px;
+}
