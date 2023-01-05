@@ -1,0 +1,61 @@
+body{
+    background-color:  rgb(231, 156, 15);
+}
+
+h1{
+    font-size: 60px;
+    color: rgb(9, 9, 9);
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    font-family: sans-serif;
+    margin-top: -3px;
+}
+  
+  section{
+    display: flex;   
+  }
+  
+  #Leslie{
+    flex:1;
+    margin-left: -3%;
+    text-align: center;
+    font-weight: 100;
+  }
+  
+  #Nicholas{
+    flex:1;
+    text-align: center;
+    font-weight: 100;
+  }
+
+  #Kin{
+    flex:1;
+    margin-right: -3%;
+    text-align: center;
+    font-weight: 100;  
+  }
+   
+  h2{
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+  
+  p{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight:100;
+    margin-top:  -25px;
+
+  }
+  
+  h3{
+    font-size: 15px;
+    font-family:  sans-serif;
+    font-weight: 900;
+  }
+
+  img{
+    margin-top: -10px;
+  }

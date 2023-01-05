@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(89, 146, 89);
+    color: aliceblue;
+    margin: 0px;
+    padding: 0%;
+}
+
+h1{
+    font-size: 70px;
+    margin-left:800px;
+    max-width: 50%;
+    margin-top:100px;
+}
+
+p{
+    margin-left: 800px;
+    margin-top: 250px;
+    font-family:'Times New Roman', Times, serif;    
+    word-spacing: 4px;
+    line-height: 1.5;
+    font-size: 28px;       
+}
+    
+.image{   
+    margin-top: -800px; 
+}
+    
+img{
+    height: 900px;
+    width: 50%;
+}

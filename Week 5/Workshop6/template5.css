@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(2, 56, 2);
+    color: aliceblue;
+    padding: 0%;
+    margin: 0%;
+}
+
+h1{
+    font-size: 82px;
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 38.5%;
+    margin: 100px 100px 100px 100px;
+}
+
+h2{
+    width: fit-content;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 100px;
+    margin-top: -30px;
+    max-width: 18%;
+}
+
+.contacts{
+    margin-top: 100px;
+    margin-left: 100px;
+    max-width: 10%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+input{
+    margin-left: 100px;
+    margin-top: 60px;
+    width: 23%;
+    font-size: 20px;
+    background-color: orange;
+    color: black;
+    border: none;
+    border-radius: 50px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.image{
+    text-align: right;
+    margin-top: -700px;
+}
+
+img{
+    height: 70%;
+    width: 42%;
+}
