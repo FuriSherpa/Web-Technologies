@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika&family=Inter:wght@300;400&family=Roboto+Slab:wght@700&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.box{
+    display: grid;
+    place-items: center;
+}
+.calc{
+    margin-top: 100px;
+    width: 330px;
+    border: 1px black solid;
+    border-radius: 10px;
+    box-shadow: 10px 10px rgba(150,150,150,0.5);
+    background-color: aquamarine;
+
+}
+
+.calc input{
+    border: none;
+    width: 100%;
+    margin-bottom: 5px 5px;
+    text-align: right;
+    font-size: 30px;
+    padding: 20px;
+    border-bottom: 1px black solid;
+    background-color: bisque;
+}
+.clac-button{
+    font-size: 20px;
+    background-color: rgb(214, 218, 218);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+}
+.clac-buttons{
+    grid-gap: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows:repeat(5,1fr);
+}
+
+.clear{
+    grid-column: span 3;
+    grid-row: 1;
+    background-color: yellowgreen;
+    color: white;
+}
+.zero{
+    grid-column: span 3;
+    grid-row: 5;
+}
+.equals{
+    grid-column: 4;
+    grid-row: 5;
+    background-color: royalblue;
+    color: white;
+}
