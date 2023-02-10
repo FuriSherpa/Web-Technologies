@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ed Sheeran</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="atours.css">
 </head>
 <body>
     <header>
@@ -22,24 +22,41 @@
                 </ul>
             </nav>
         <img src="menu" class="menu-icon" onclick="togglemenu()">        
-    </div>
+    </div>   
 </header>
 
-    <div class="row">
-        <div class="col-1">
-            <h2>Ed Sheeran</h2>
-            <h3>Singer Songwriter</h3>
-            <p>Genres: Pop; folk-pop; soft rock</p>
-            <h4>Latest Album: Equals</h4>
-            <a href="https://www.edsheeran.com/?frontpage=true"><button type="button">Click Here</button></a>
-        </div>
-        <div class="col-2">
-            <img src="Ed Sheeran.jpg" alt="Ed Sheeran" class="Ed">
-            <div class="color-box"></div>
-        </div>
-    </div>
+<h1>Upcoming Tour</h1>
+<section>
+    <article id="Eden">
+        <img src="eden.jpg" alt="Eden Park">
+        <h2>Eden Park</h2>
+        <p>Auckland, New Zealand</p>
+        <h3>Feb 10 2023</h3>
+        <a href="https://www.ticketmaster.co.nz/event/24005C6FCD763917"><button type="button">Tickets</button></a>
+    </article>
 
-    <footer>
+    <article id="Eden1">
+        <img src="eden.jpg" alt="Eden Park">
+        <h2>Eden Park</h2>
+        <p>Auckland, New Zealand</p>
+        <h3>Feb 11 2023</h3>
+        <a href="https://www.ticketmaster.co.nz/event/24005C6FCD763917"><button type="button">Tickets</button></a>
+    </article>
+
+    <article id="Sun">
+        <img src="sun.jpg" alt="Suncorp Stadium">
+        <h2>Suncorp Stadium</h2>
+        <p>Brisbane, Australia</p>
+        <h3>Feb 17 2023</h3>
+        <a href="https://premier.ticketek.com.au/shows/show.aspx?sh=EDSHEERA23"><button type="button">Tickets</button></a>
+    </article>
+</section><Br></Br>
+
+<div class="ticket">
+    <a href="https://www.edsheeran.com/tour"><button type="button">Click here to view more shows.</button></a>
+</div><br>
+
+<footer>
     <div class="social-links">
         <a href="https://www.facebook.com/EdSheeranMusic/"><img src="fb.png"></a>
         <a href="https://www.instagram.com/teddysphotos/"><img src="insta.png"></a>
@@ -47,21 +64,6 @@
         <a href="https://open.spotify.com/artist/6eUKZXaKkcviH0Ku9w2n3V"><img src="spotify.png"></a>
     </div>
     <p><strong>Copyright &copy; 2023 Ed Sheeran</strong></p>
-    </footer>
-
-    <script>
-        var MenuList = document.getElementsById("MenuList")
-        MenuList.style.maxheight = "0px";
-        function togglemenu(){
-            if(MenuList.style.maxheight == "0px")
-            {
-                MenuList.style.maxheight = "130px";
-            }
-            else
-            {
-                MenuList.style.maxheight = "0px"
-            }
-        }
-    </script>
+</footer>
 </body>
 </html>

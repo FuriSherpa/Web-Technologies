@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    background-color: gray;
+    height: 100px;
+    border: 1px solid;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 80px;
+    cursor: pointer;
+    margin: 12px 0;
+    border-radius: 50%;
+}
+
+.menu-icon{
+    width: 25px;
+    cursor: pointer;
+    display: none;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+nav ul li a:hover{
+    color: rgb(219, 44, 44);
+    font-size: 30px;
+}
+
+h1{
+    font-size: 60px;
+    color: rgb(151, 144, 144);
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    font-family: sans-serif;
+    margin-top: -3px;
+}
+
+section{
+    display: flex;   
+}
+  
+#Eden{
+    flex:1;
+    text-align: center;
+    font-weight: 100;
+}
+
+#Eden img{
+    height: 300px;
+    width: 350px;
+    border-radius: 25px;
+}
+  
+#Eden1{
+    flex:1;
+    text-align: center;
+    font-weight: 100;
+}
+
+#Eden1 img{
+    height: 300px;
+    width: 350px;
+    border-radius: 25px;
+}
+
+#Sun{
+    flex:1;
+    text-align: center;
+    font-weight: 100;  
+}
+
+#Sun img{
+    height: 300px;
+    width: 350px;
+    border-radius: 25px;
+}
+   
+h2{
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+  
+.section p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+  
+h3{
+    font-size: 20px;
+    font-family:  sans-serif;
+}
+
+img{
+    margin-top: -10px;
+}
+
+.ticket{
+    text-align: center;
+}
+
+.ticket button{
+    width: fit-content;
+    border: 0;
+    padding: 12px 10px;
+    outline: none;
+    color: white;
+    background-color: red;
+    border-radius: 35px;
+    cursor: pointer;
+    transition: width 0.5s;
+}
+
+.ticket button:hover{
+    width: 210px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button{
+    width: 100px;
+    border: 0;
+    padding: 12px 10px;
+    outline: none;
+    color: white;
+    background-color: red;
+    border-radius: 35px;
+    cursor: pointer;
+    transition: width 0.5s;
+}
+
+button a{
+    color: white;
+    text-decoration: none;
+}
+
+button:hover{
+    width: 110px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-links img{
+    height: 40px;
+    margin: 40px;
+    cursor: pointer;
+}
+
+.social-links{
+    text-align: center;
+}
+
+footer {
+    background-color: gray;
+    text-align: center;
+    padding: 1rem;
+    border: 1px solid;
+}

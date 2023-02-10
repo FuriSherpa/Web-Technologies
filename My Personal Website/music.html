@@ -21,25 +21,45 @@
                     <li><a href="references.html">References</a></li>
                 </ul>
             </nav>
-        <img src="menu" class="menu-icon" onclick="togglemenu()">        
-    </div>
+        <img src="menu" class="menu-icon" onclick="togglemenu()">
+        
+    </div>   
 </header>
 
-    <div class="row">
-        <div class="col-1">
-            <h2>Ed Sheeran</h2>
-            <h3>Singer Songwriter</h3>
-            <p>Genres: Pop; folk-pop; soft rock</p>
-            <h4>Latest Album: Equals</h4>
-            <a href="https://www.edsheeran.com/?frontpage=true"><button type="button">Click Here</button></a>
-        </div>
-        <div class="col-2">
-            <img src="Ed Sheeran.jpg" alt="Ed Sheeran" class="Ed">
-            <div class="color-box"></div>
-        </div>
-    </div>
+<h1>Albums</h1><br><br>
+<section class="music">
+    <article id="equals">
+        <img src="equal.jpg" alt="Equals Album">
+        <h2>Equals</h2><br>
+        <a href=""><button type="button">Buy Now</button></a>
+    </article>
 
-    <footer>
+    <article id="six">
+        <img src="6.jpg" alt="No. 6 Collaboration">
+        <h2>No. 6 Collaboration</h2><br>
+        <a href=""><button type="button">Buy Now</button></a>
+    </article>
+
+    <article id="divide">
+        <img src="divide.jpg" alt="Divide Album">
+        <h2>Divide</h2><br>
+        <a href=""><button type="button">Buy Now</button></a>
+    </article>
+
+    <article id="multiply">
+        <img src="multiply.jpg" alt="Multiply Album">
+        <h2>Multiply</h2><br>
+        <a href=""><button type="button">Buy Now</button></a>
+    </article>
+
+    <article id="plus">
+        <img src="plus.jpg" alt="Plus Album">
+        <h2>Plus</h2><br>
+        <a href=""><button type="button">Buy Now</button></a>
+    </article>
+</section><Br></Br>
+
+<footer>
     <div class="social-links">
         <a href="https://www.facebook.com/EdSheeranMusic/"><img src="fb.png"></a>
         <a href="https://www.instagram.com/teddysphotos/"><img src="insta.png"></a>
@@ -48,20 +68,5 @@
     </div>
     <p><strong>Copyright &copy; 2023 Ed Sheeran</strong></p>
     </footer>
-
-    <script>
-        var MenuList = document.getElementsById("MenuList")
-        MenuList.style.maxheight = "0px";
-        function togglemenu(){
-            if(MenuList.style.maxheight == "0px")
-            {
-                MenuList.style.maxheight = "130px";
-            }
-            else
-            {
-                MenuList.style.maxheight = "0px"
-            }
-        }
-    </script>
 </body>
 </html>

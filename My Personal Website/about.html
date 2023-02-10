@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ed Sheeran</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="astyle.css">
 </head>
 <body>
     <header>
@@ -22,24 +22,25 @@
                 </ul>
             </nav>
         <img src="menu" class="menu-icon" onclick="togglemenu()">        
-    </div>
+    </div>   
 </header>
 
-    <div class="row">
-        <div class="col-1">
-            <h2>Ed Sheeran</h2>
-            <h3>Singer Songwriter</h3>
-            <p>Genres: Pop; folk-pop; soft rock</p>
-            <h4>Latest Album: Equals</h4>
-            <a href="https://www.edsheeran.com/?frontpage=true"><button type="button">Click Here</button></a>
-        </div>
-        <div class="col-2">
-            <img src="Ed Sheeran.jpg" alt="Ed Sheeran" class="Ed">
-            <div class="color-box"></div>
+<section class="about">
+    <div class="main">
+        <img src="edsheeran.jpg" alt="Ed Sheeran">
+        <div class="text">
+            <h2>About Ed Sheeran</h2>
+            <p>Ed Sheeran is a singer/songwriter who began playing guitar at a young age and soon after started writing his own songs. 
+                When he was just a teenager, he moved to London to pursue his music, and his outpouring of creativity added up to several 
+                early EPs and hundreds of live shows. Drawing attention for his online performances, Sheeran hit No. 1 on the iTunes chart 
+                before he ever signed with a record label. Since signing with Atlantic, Sheeran has sold millions of records and won Grammys 
+                for hits like "Thinking Out Loud" and "Shape of You," as well as his 2018 album, ÷.</p><br><br>
+            <a href="https://www.biography.com/musicians/ed-sheeran"><button type="button">View More</button></a>
         </div>
     </div>
+</section>
 
-    <footer>
+<footer>
     <div class="social-links">
         <a href="https://www.facebook.com/EdSheeranMusic/"><img src="fb.png"></a>
         <a href="https://www.instagram.com/teddysphotos/"><img src="insta.png"></a>
@@ -48,20 +49,5 @@
     </div>
     <p><strong>Copyright &copy; 2023 Ed Sheeran</strong></p>
     </footer>
-
-    <script>
-        var MenuList = document.getElementsById("MenuList")
-        MenuList.style.maxheight = "0px";
-        function togglemenu(){
-            if(MenuList.style.maxheight == "0px")
-            {
-                MenuList.style.maxheight = "130px";
-            }
-            else
-            {
-                MenuList.style.maxheight = "0px"
-            }
-        }
-    </script>
 </body>
 </html>
